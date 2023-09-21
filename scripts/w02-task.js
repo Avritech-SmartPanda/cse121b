@@ -18,7 +18,7 @@ const imageElement = document.getElementsByTagName("img")[0];
 nameElement.innerHTML = `<strong>${fullName}</strong>`;
 yearElement.textContent = currentYear;
 imageElement.setAttribute("src", profilePicture);
-imageElement.setAttribute("alt", `Pfofile image of ${fullName}`);
+imageElement.setAttribute("alt", `Profile image of ${fullName}`);
 
 /* Step 5 - Array */
 const favFoods = ["Pizza", "Pasta", "Burgers", "Fries", "Ice Cream"];
