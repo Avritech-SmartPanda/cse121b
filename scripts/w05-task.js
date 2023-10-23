@@ -79,17 +79,9 @@ const sortBy = function (temples) {
   }
 };
 
-// Add a change event listener to the HTML element with an ID of sortBy that calls the sortBy function and sends a arrow function result with the templeList as the argument.
-
 document.querySelector("#sortBy").addEventListener("change", () => {
   sortBy(templeList);
 });
-
-
-
-
-
-
 
 getTemples();
 
