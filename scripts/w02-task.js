@@ -11,7 +11,7 @@ const profilePicture = "images/profile-pic.jpg";
 const nameElement = document.getElementById("name");
 const foodElement = document.getElementById("food");
 const yearElement = document.querySelector("#year");
-const imageElement = document.getElementsByTagName("img")[0];
+const imageElement = document.querySelector("img");
 // const favFood = document.getElementsByClassName("fav-food")[0];
 
 /* Step 4 - Adding Content */
